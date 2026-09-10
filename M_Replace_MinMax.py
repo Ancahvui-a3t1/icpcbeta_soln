@@ -1,0 +1,9 @@
+a=int(input())
+m=input().split()
+n=list(map(int,m))
+b=max(m)
+c=min(m)
+d=c
+c=m.replace(c,b)
+b=m.replace(b,d)
+print(map(int,m)) 
